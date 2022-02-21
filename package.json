@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "onprem":  "npx wdio run ./wdio.conf.js",
-    "single": "npx wdio run ./wdio.confsingle.js"
+    "single": "npx wdio run ./wdio.confsingle.js",
+    "parallel": "npx wdio run ./wdio.confparallel.js"
   },
   "keywords": [],
   "author": "",
