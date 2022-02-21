@@ -5,6 +5,7 @@
   "Author": "Mayank M",
   "main": "index.js",
   "scripts": {
+    "onprem":  "npx wdio run ./wdio.conf.js",
     "single": "npx wdio run ./wdio.confsingle.js"
   },
   "keywords": [],
