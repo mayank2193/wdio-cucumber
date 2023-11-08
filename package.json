@@ -19,6 +19,6 @@
     "@wdio/spec-reporter": "^7.16.14",
     "chromedriver": "^98.0.1",
     "wdio-chromedriver-service": "^7.2.8",
-    "wdio-lambdatest-service": "^1.0.6"
+    "wdio-lambdatest-service": "^2.1.1"
   }
 }

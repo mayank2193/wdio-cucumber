@@ -10,13 +10,20 @@ exports.config = {
         version: 'latest',
         platform: 'WIN10',
         build: 'WDIO-Cucumber-Build',
-        name: 'Login-feature'
+        name: 'Login-feature',
+        tunnel: true
       }],
-    services: [
-            ['lambdatest', {
-                tunnel: false
-            }]
-        ],
+      services: [
+        [
+          "lambdatest",
+          {
+            tunnel: true,
+            lambdatestOpts: {
+              tunnelName: "T1"
+            }
+          }
+        ]
+      ],
    
     screenshotPath: './errorShots/',
     baseUrl: '',

@@ -1,0 +1,109 @@
+{"level":"debug","time":"2023-11-08T11:11:15.594Z","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 1048576"}
+{"level":"info","time":"2023-11-08T11:11:15.680Z","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-11-08T11:11:15.680Z","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-11-08T11:11:15.680Z","caller":"core/lifecycle.go:42","msg":"OS: linux, Arch: amd64"}
+{"level":"debug","time":"2023-11-08T11:11:15.680Z","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2023-11-08T11:11:15.680Z","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mayankmaurya --key ***** --tunnelName T1 --controller npm --infoAPIPort 46123 --logFile mayank2193-wdiocucumber-hm2uwreh2mf46123.log --port 43517"}
+{"level":"debug","time":"2023-11-08T11:11:16.070Z","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-11-08T11:11:16.155Z","caller":"apiserver/setup.go:154","msg":"Starting API server"}
+{"level":"debug","time":"2023-11-08T11:11:16.155Z","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-11-08T11:11:16.155Z","caller":"custom/setup.go:752","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-11-08T11:11:16.155Z","caller":"apiserver/setup.go:136","msg":"Starting API server for tunnel info on port: 46123"}
+{"level":"debug","time":"2023-11-08T11:11:16.155Z","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2023-11-08T11:11:16.155Z","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"info","time":"2023-11-08T11:11:16.156Z","caller":"custom/setup.go:699","msg":"Tunnel binary started on port :43517"}
+{"level":"debug","time":"2023-11-08T11:11:16.206Z","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-11-08T11:11:16.852Z","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-11-08T11:11:16.984Z","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2023-11-08T11:11:16.991Z","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2023-11-08T11:11:16.991Z","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-11-08T11:11:16.991Z","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-11-08T11:11:16.991Z","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-11-08T11:11:17.497Z","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-11-08T11:11:17.497Z","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-11-08T11:11:18.033Z","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-11-08T11:11:18.033Z","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-11-08T11:11:18.033Z","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-11-08T11:11:18.033Z","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-11-08T11:11:19.212Z","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 1889"}
+{"level":"debug","time":"2023-11-08T11:11:19.227Z","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 6638"}
+{"level":"info","time":"2023-11-08T11:11:19.227Z","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-11-08T11:11:19.227Z","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 5187598"}
+{"level":"debug","time":"2023-11-08T11:11:19.227Z","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 17607"}
+{"level":"debug","time":"2023-11-08T11:11:19.233Z","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 5120"}
+{"level":"debug","time":"2023-11-08T11:11:19.263Z","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 12045"}
+{"level":"debug","time":"2023-11-08T11:11:19.304Z","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 7260"}
+{"level":"debug","time":"2023-11-08T11:11:24.248Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://accounts.google.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:25.916Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:25.923Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:26.425Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:26.427Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:26.428Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:26.430Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:26.782Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:26.791Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:26.923Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:26.932Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:27.189Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://content-autofill.googleapis.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:28.329Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:28.337Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:28.455Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:28.470Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:28.598Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:28.598Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:28.602Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:28.606Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:28.606Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:28.606Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:28.733Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:28.734Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:28.735Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:28.743Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:28.743Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:28.743Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:29.166Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:29.169Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:29.171Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:29.172Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:29.175Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:29.175Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:29.175Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:29.175Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:29.296Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:29.298Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:29.298Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:29.303Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:29.305Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:29.305Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:29.305Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:29.305Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:29.945Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:29.953Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:30.082Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:30.091Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:30.203Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:30.207Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:30.207Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:30.207Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:30.211Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:30.211Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:30.211Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:30.211Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:30.216Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:30.225Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:30.332Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:30.336Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:30.336Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2023-11-08T11:11:30.337Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:30.340Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:30.340Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:30.340Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"warn","time":"2023-11-08T11:11:30.340Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:30.352Z","caller":"custom/setup.go:511","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2023-11-08T11:11:30.364Z","caller":"custom/setup.go:548","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com on 1.1.1.1:53: no such host"}
+{"level":"debug","time":"2023-11-08T11:11:36.314Z","caller":"core/lifecycle.go:379","msg":"Context cancelled"}
+{"level":"debug","time":"2023-11-08T11:11:36.314Z","caller":"apiserver/setup.go:132","msg":"Shutting down the server"}
+{"level":"debug","time":"2023-11-08T11:11:36.314Z","caller":"custom/setup.go:740","msg":"Exiting the sink proxy"}
+{"level":"info","time":"2023-11-08T11:11:36.314Z","caller":"core/lifecycle.go:381","msg":"Stopping tunnel"}
+{"level":"debug","time":"2023-11-08T11:11:36.314Z","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-11-08T11:11:36.314Z","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
