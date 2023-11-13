@@ -5,14 +5,23 @@ exports.config = {
   updateJob: false,
   exclude: [],
   maxInstances: 10,
+  // capabilities: [{
+  //     browserName: 'chrome',
+  //     version: 'latest',
+  //     platform: 'WIN10',
+  //     build: 'WDIO-Cucumber-Build',
+  //     name: 'Login-feature',
+  //     tunnel: true
+  //   }],
   capabilities: [{
-      browserName: 'chrome',
-      version: 'latest',
-      platform: 'WIN10',
-      build: 'WDIO-Cucumber-Build',
-      name: 'Login-feature',
-      tunnel: true
-    }],
+    "browserName": "Chrome",
+    "browserVersion": "120.0",
+    "LT:Options": {
+      "platformName": "Windows 10",
+      "tunnel": true,
+      "w3c": true
+    }
+  }],
     services: [
       [
         "lambdatest",
