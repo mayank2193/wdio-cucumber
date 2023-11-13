@@ -1,0 +1,25 @@
+{
+    "name": "wdio-cucumber",
+    "version": "1.0.0",
+    "description": "",
+    "Author": "Mayank M",
+    "main": "index.js",
+    "scripts": {
+      "onprem":  "npx wdio run ./wdio.conf.js",
+      "single": "npx wdio run ./wdio.confsingle.js",
+      "parallel": "npx wdio run ./wdio.confparallel.js",
+      "device": "npx wdio run ./wdio.confDevice.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@wdio/cli": "^7.16.15",
+      "@wdio/cucumber-framework": "^7.16.14",
+      "@wdio/local-runner": "^7.16.15",
+      "@wdio/spec-reporter": "^7.16.14",
+      "chromedriver": "^98.0.1",
+      "wdio-chromedriver-service": "^7.2.8",
+      "wdio-lambdatest-service": "^2.1.1"
+    }
+  }

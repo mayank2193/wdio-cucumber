@@ -5,12 +5,10 @@ exports.config = {
     exclude: [],
     maxInstances: 10,
     // capabilities: [{
-    //     browserName: 'chrome',
-    //     version: 'latest',
-    //     platform: 'WIN10',
-    //     build: 'WDIO-Cucumber-Build',
-    //     name: 'Login-feature',
-    //     tunnel: true
+    //       platformName: "android",
+    //       "deviceName": "Pixel.*",
+    //       "isRealMobile": true,
+    //       "tunnel":true
     //   }],
     capabilities: [{
       "lt:options": {
@@ -38,7 +36,7 @@ exports.config = {
     waitforTimeout: 10000,
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
-    host: 'mobile-hub.lambdatest.com',
+    hostname: 'mobile-hub.lambdatest.com',
     port:80,
     specs: [
         './features/**/*.feature'
